@@ -1140,18 +1140,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wabtmK4gQ8yH8FdVm6mln82Dcy\u002BpP2J2JH0OxWSRxNY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wabtmK4gQ8yH8FdVm6mln82Dcy\u002BpP2J2JH0OxWSRxNY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Mar 2020 03:46:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/StdMngMvc/UploadFiles/testpost.jyfmrnovwv.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UploadFiles\testpost.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jyfmrnovwv"},{"Name":"integrity","Value":"sha256-tQ7IGQQTG\u002B/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM="},{"Name":"label","Value":"_content/StdMngMvc/UploadFiles/testpost.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"221624"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tQ7IGQQTG\u002B/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 08:48:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/StdMngMvc/UploadFiles/testpost.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UploadFiles\testpost.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tQ7IGQQTG\u002B/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"221624"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tQ7IGQQTG\u002B/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 08:48:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StdMngMvc/UploadFiles/vgge.j5i6ma7dyf.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UploadFiles\vgge.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

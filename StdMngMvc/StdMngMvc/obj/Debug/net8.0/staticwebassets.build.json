@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M/OpbJlUzlI08WaacB8xQijdzfVOTtfTYND3ad9PbfA=",
+  "Hash": "//kqqnyHJHp3h1vBn5ppx6ciOps2ibBQUIJqWyxmYqk=",
   "Source": "StdMngMvc",
   "BasePath": "_content/StdMngMvc",
   "Mode": "Default",
@@ -2031,27 +2031,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadFiles\\None1.jpg"
-    },
-    {
-      "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\testpost.png",
-      "SourceId": "StdMngMvc",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\",
-      "BasePath": "_content/StdMngMvc",
-      "RelativePath": "UploadFiles/testpost#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jyfmrnovwv",
-      "Integrity": "tQ7IGQQTG+/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFiles\\testpost.png"
     },
     {
       "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\vgge.png",
@@ -10008,88 +9987,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-wabtmK4gQ8yH8FdVm6mln82Dcy+pP2J2JH0OxWSRxNY="
-        }
-      ]
-    },
-    {
-      "Route": "UploadFiles/testpost.jyfmrnovwv.png",
-      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\testpost.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "221624"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tQ7IGQQTG+/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 08:48:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jyfmrnovwv"
-        },
-        {
-          "Name": "label",
-          "Value": "UploadFiles/testpost.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tQ7IGQQTG+/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM="
-        }
-      ]
-    },
-    {
-      "Route": "UploadFiles/testpost.png",
-      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\testpost.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "221624"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tQ7IGQQTG+/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 08:48:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tQ7IGQQTG+/RPi3qJJxK0c9dGKzCGkqR3ZZRwVzA0iM="
         }
       ]
     },

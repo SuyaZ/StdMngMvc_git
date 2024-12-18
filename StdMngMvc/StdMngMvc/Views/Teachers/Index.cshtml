@@ -84,9 +84,9 @@
                     @Html.DisplayFor(modelItem => item.OfficeAssignment.Location)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ID">修改</a> |
-                    <a asp-action="Details" asp-route-id="@item.ID">详细信息</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ID">删除</a>
+                    <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm btn-warning">修改</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info">详细信息</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-danger delete-item-btn">删除</a>
                 </td>
             </tr>
         }

@@ -92,7 +92,6 @@ wwwroot\UploadFiles\lhb.jpg
 wwwroot\UploadFiles\Mmm.jpg
 wwwroot\UploadFiles\Nmm.jpg
 wwwroot\UploadFiles\None1.jpg
-wwwroot\UploadFiles\testpost.png
 wwwroot\UploadFiles\vgge.png
 wwwroot\UploadFiles\Wmm.jpg
 wwwroot\UploadFiles\zhangsan.png

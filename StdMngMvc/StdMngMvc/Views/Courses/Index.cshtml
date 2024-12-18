@@ -52,10 +52,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Department.DepartmentName)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CourseID">修改</a> |
-                <a asp-action="Details" asp-route-id="@item.CourseID">详情</a> |
-                    <a asp-action="Delete" asp-route-id="@item.CourseID" id="btnDelete" data-CourseId="@item.CourseID">删除</a>
+            <td id="@item.CourseID">
+                <a asp-action="Edit" asp-route-id="@item.CourseID" class="btn btn-sm btn-warning">修改</a>
+                <a asp-action="Details" asp-route-id="@item.CourseID" class="btn btn-sm btn-info">详细信息</a>
+                <a asp-action="Delete" asp-route-id="@item.CourseID" id="btnDelete" data-CourseId="@item.CourseID" class="btn btn-sm btn-danger delete-item-btn">删除</a>
             </td>
         </tr>
 }

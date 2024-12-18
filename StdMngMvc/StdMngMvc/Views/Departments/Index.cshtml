@@ -46,9 +46,9 @@
                 @Html.DisplayFor(modelItem => item.Administrator.Name)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.DepartmentID">修改</a> |
-                <a asp-action="Details" asp-route-id="@item.DepartmentID">详情</a> |
-                <a asp-action="Delete" asp-route-id="@item.DepartmentID">删除</a>
+                <a asp-action="Edit" asp-route-id="@item.DepartmentID" class="btn btn-sm btn-warning">修改</a> |
+                <a asp-action="Details" asp-route-id="@item.DepartmentID" class="btn btn-sm btn-info">详情</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DepartmentID" class="btn btn-sm btn-danger delete-item-btn">删除</a>
             </td>
         </tr>
 }
