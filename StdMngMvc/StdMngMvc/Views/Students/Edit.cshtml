@@ -121,8 +121,10 @@
                     data:data,
                     success:function(data){
                         if(data!=null){
-                            $("#imgStd").attr('src', '@Url.Content("~/UploadFiles/")' + data);
-                            $("#ImageURL").val('/UploadFiles/' + data);
+                            $("#imgStd").get(0).src='@Url.Content("~/UploadFiles/")'
+                            + data;
+
+                            $("#ImageURL").get(0).value='~/UploadFiles/' + data;
                         }
                     },
                     error:function()

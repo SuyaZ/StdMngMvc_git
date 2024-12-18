@@ -607,7 +607,6 @@ D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.c
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.MvcApplicationPartsAssemblyInfo.cache
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.RazorAssemblyInfo.cache
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.RazorAssemblyInfo.cs
-D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.sourcelink.json
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\scopedcss\bundle\StdMngMvc.styles.css
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\scopedcss\projectbundle\StdMngMvc.bundle.scp.css
