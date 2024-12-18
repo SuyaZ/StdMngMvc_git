@@ -40,7 +40,26 @@
             <div class="form-group">
                 <label asp-for="ImageURL" class="control-label"></label>
                 <input asp-for="ImageURL" class="form-control" />
-                <span asp-validation-for="ImageURL" class="text-danger"></span>
+                @{
+                    if (Model == null || Model.ImageURL == null)
+                    {
+                        <img src="@Url.Content("~/UploadFiles/None1.jpg")"
+                             style="max-height:320px;max-width:180px;object-fit:contain;"
+                             id="imgStd" />
+
+                    }
+                    else
+                    {
+                        <img src="@Url.Content(Model.ImageURL)"
+                             style="max-height:320px;max-width:180px;object-fit:contain;"
+                             id="imgStd" />
+                    }
+                }
+                <br /> <br />
+                <input type="file" id="stdImgFile" multiple />
+                <button type="button" class="btn btn-primary" id="uploadStdImg">
+                    <img src="@Url.Content("~/Images/upload_whilte.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;上传图片
+                </button>
             </div>
             <div class="form-group">
                 <label asp-for="Memo" class="control-label"></label>
@@ -102,10 +121,8 @@
                     data:data,
                     success:function(data){
                         if(data!=null){
-                            $("#imgStd").get(0).src='@Url.Content("~/UploadFiles/")'
-                            + data;
-
-                            $("#ImageURL").get(0).value='~/UploadFiles/' + data;
+                            $("#imgStd").attr('src', '@Url.Content("~/UploadFiles/")' + data);
+                            $("#ImageURL").val('/UploadFiles/' + data);
                         }
                     },
                     error:function()

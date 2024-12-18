@@ -40,7 +40,26 @@
             <div class="form-group">
                 <label asp-for="ImageURL" class="control-label"></label>
                 <input asp-for="ImageURL" class="form-control" />
-                <span asp-validation-for="ImageURL" class="text-danger"></span>
+                @{
+                    if (Model == null || Model.ImageURL == null)
+                    {
+                        <img src="@Url.Content("~/UploadFiles/None1.jpg")"
+                             style="max-height:320px;max-width:180px;object-fit:contain;"
+                             id="imgTch" />
+
+                    }
+                    else
+                    {
+                        <img src="@Url.Content(Model.ImageURL)"
+                             style="max-height:320px;max-width:180px;object-fit:contain;"
+                             id="imgTch" />
+                    }
+                }
+                <br /> <br />
+                <input type="file" id="TchImgFile" multiple />
+                <button type="button" class="btn btn-primary" id="uploadTchImg">
+                    <img src="@Url.Content("~/Images/upload_whilte.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;上传图片
+                </button>
             </div>
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
@@ -71,4 +90,54 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript" language="javascript">
+        $(function(){
+            $("#uploadTchImg").click(function(){
+                debugger;
+                var fileUpload=$("#TchImgFile").get(0);
+                var files=fileUpload.files;
+                var data=new FormData();
+
+                for(var i=0; i<files.length; i++)
+                {
+                    if(files[i].size>1024*1024*32)
+                    {
+                        alert("图片大小不能大于32MB!");
+                        return false;
+                    }
+
+                    var point=files[i].name.lastIndexOf(".");
+                    var type=files[i].name.substr(point);
+
+                    if(!(type==".jpg"||type==".png"||type==".JPG"||type==".PNG"))
+                    {
+                        alert("上传图片的格式必须为JPG或者PNG格式!");
+                        return false;
+                    }
+
+                    data.append(files[i].name, files[i]);
+                }
+
+                $.ajax({
+                    type:"POST",
+                    url:'@Url.Content("~/Teachers/UpdateTchImg")',
+                    contentType:false,
+                    processData:false,
+                    data:data,
+                    success:function(data){
+                        if(data!=null){
+                            $("#imgTch").attr('src', '@Url.Content("~/UploadFiles/")' + data);
+                            $("#ImageURL").val('/UploadFiles/' + data);
+                        }
+                    },
+                    error:function()
+                    {
+                        alert("上传图片错误!");
+                    }
+                });
+            });
+        });
+    </script>
+
+
 }

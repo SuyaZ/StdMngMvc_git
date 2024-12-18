@@ -37,6 +37,23 @@ namespace StdMngMvc.Controllers
             return $"{file.Name}";
         }
 
+        public String UpdateTchImg()
+        {
+            var file = Request.Form.Files[0];
+
+            var filenStorePath = hostingEnv.WebRootPath + $@"\UploadFiles\{file.Name}";
+
+            using (FileStream fs = System.IO.File.Create(filenStorePath))
+            {
+                file.CopyTo(fs);
+                fs.Flush();
+            }
+
+            return $"{file.Name}";
+        }
+
+
+
         // GET: Teachers
         public async Task<IActionResult> Index()
         {
