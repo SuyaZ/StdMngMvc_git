@@ -1032,6 +1032,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TgaW/Cx\u002B4hBboDYMGGvDaqz4qe0\u002B8cydhnhBsT9GtlE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2120683"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TgaW/Cx\u002B4hBboDYMGGvDaqz4qe0\u002B8cydhnhBsT9GtlE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 08:17:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StdMngMvc/UploadFiles/gitpost.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UploadFiles\gitpost.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TTkN8XmGd15N4m7F6QHz26ad1S0VJdWbvoxWwIqc1Do="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"98250"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TTkN8XmGd15N4m7F6QHz26ad1S0VJdWbvoxWwIqc1Do=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 09:43:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StdMngMvc/UploadFiles/gitpost.xzwljnzn7t.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UploadFiles\gitpost.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xzwljnzn7t"},{"Name":"integrity","Value":"sha256-TTkN8XmGd15N4m7F6QHz26ad1S0VJdWbvoxWwIqc1Do="},{"Name":"label","Value":"_content/StdMngMvc/UploadFiles/gitpost.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"98250"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TTkN8XmGd15N4m7F6QHz26ad1S0VJdWbvoxWwIqc1Do=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 09:43:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StdMngMvc/UploadFiles/hien.f4mjvf2inu.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UploadFiles\hien.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

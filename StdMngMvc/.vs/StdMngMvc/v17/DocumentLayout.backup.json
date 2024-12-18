@@ -1,65 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\vs2022\\vs_proj\\StdMngMvc\\",
+  "WorkspaceRootPath": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\controllers\\stdwebapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\controllers\\stdwebapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\controllers\\stdwebapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\stdviewmodels\\coursestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\stdviewmodels\\coursestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\stdviewmodels\\coursestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc\\stdmngmvc\\stdmngmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|d:\\vs2022\\vs_proj\\stdmngmvc_git\\stdmngmvc\\stdmngmvc\\stdmngmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D20A18D9-9060-4402-BC32-263578D7B2E3}|StdMngMvc\\StdMngMvc.csproj|solutionrelative:stdmngmvc\\stdmngmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -84,11 +84,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StdWebAPI.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\StdWebAPI.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\StdWebAPI.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Controllers\\StdWebAPI.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\StdWebAPI.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\StdWebAPI.cs",
               "RelativeToolTip": "StdMngMvc\\Controllers\\StdWebAPI.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAAAMAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAuwKcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T03:39:35.001Z",
               "EditorCaption": ""
@@ -97,35 +97,33 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Create.cshtml",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Create.cshtml",
               "RelativeDocumentMoniker": "StdMngMvc\\Views\\Courses\\Create.cshtml",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Create.cshtml",
               "RelativeToolTip": "StdMngMvc\\Views\\Courses\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T01:51:38.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T01:51:38.71Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Students\\Create.cshtml",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "StdMngMvc\\Views\\Students\\Create.cshtml",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Students\\Create.cshtml",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Students\\Create.cshtml",
               "RelativeToolTip": "StdMngMvc\\Views\\Students\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T01:51:22.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T01:51:22.693Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Index.cshtml",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Index.cshtml",
               "RelativeDocumentMoniker": "StdMngMvc\\Views\\Courses\\Index.cshtml",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Courses\\Index.cshtml",
               "RelativeToolTip": "StdMngMvc\\Views\\Courses\\Index.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -135,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "TeachersController.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\TeachersController.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\TeachersController.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Controllers\\TeachersController.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\TeachersController.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\TeachersController.cs",
               "RelativeToolTip": "StdMngMvc\\Controllers\\TeachersController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,35 +145,33 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Controllers\\StudentsController.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "StdMngMvc\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAAL0AAAAAAAAAAAAAAA0BAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T12:55:14.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T12:55:14.929Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Program.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Program.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Program.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Program.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Program.cs",
               "RelativeToolTip": "StdMngMvc\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAqwDEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T11:42:10.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T11:42:10.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\appsettings.json",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\appsettings.json",
               "RelativeDocumentMoniker": "StdMngMvc\\appsettings.json",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\appsettings.json",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\appsettings.json",
               "RelativeToolTip": "StdMngMvc\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -185,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CoursesController.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\CoursesController.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Controllers\\CoursesController.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "StdMngMvc\\Controllers\\CoursesController.cs",
               "ViewState": "AgIAAMEAAAAAAAAAAAAuwMgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,9 +193,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "StdMngMvc\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "StdMngMvc\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAIwCsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -209,9 +205,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\HomeController.cs",
               "RelativeToolTip": "StdMngMvc\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAswBgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -221,9 +217,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "CourseStats.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdViewModels\\CourseStats.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdViewModels\\CourseStats.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\StdViewModels\\CourseStats.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdViewModels\\CourseStats.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdViewModels\\CourseStats.cs",
               "RelativeToolTip": "StdMngMvc\\StdViewModels\\CourseStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,9 +229,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\DepartmentsController.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Controllers\\DepartmentsController.cs",
               "RelativeToolTip": "StdMngMvc\\Controllers\\DepartmentsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -245,9 +241,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "SchoolContext.cs",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Data\\SchoolContext.cs",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Data\\SchoolContext.cs",
               "RelativeDocumentMoniker": "StdMngMvc\\Data\\SchoolContext.cs",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\Data\\SchoolContext.cs",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\Data\\SchoolContext.cs",
               "RelativeToolTip": "StdMngMvc\\Data\\SchoolContext.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAIwD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -257,9 +253,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "StdMngMvc.csproj",
-              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
+              "DocumentMoniker": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
               "RelativeDocumentMoniker": "StdMngMvc\\StdMngMvc.csproj",
-              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
+              "ToolTip": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
               "RelativeToolTip": "StdMngMvc\\StdMngMvc.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

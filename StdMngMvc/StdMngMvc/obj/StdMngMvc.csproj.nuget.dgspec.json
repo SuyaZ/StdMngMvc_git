@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj": {}
+    "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj": {}
   },
   "projects": {
-    "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj": {
+    "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
+        "projectUniqueName": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
         "projectName": "StdMngMvc",
-        "projectPath": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
+        "projectPath": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
         "packagesPath": "C:\\Users\\JialinZhong\\.nuget\\packages\\",
-        "outputPath": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\obj\\",
+        "outputPath": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vs2022\\vs2022_shared\\NuGetPackages",

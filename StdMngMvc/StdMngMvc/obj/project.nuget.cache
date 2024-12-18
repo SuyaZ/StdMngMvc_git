@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OmkiEJ8d6YE=",
+  "dgSpecHash": "rukKHsRS+vM=",
   "success": true,
-  "projectFilePath": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
+  "projectFilePath": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\StdMngMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JialinZhong\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\JialinZhong\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

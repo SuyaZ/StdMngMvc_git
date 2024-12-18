@@ -1,399 +1,403 @@
 {
   "Files": [
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\StdMngMvc.bundle.scp.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\StdMngMvc.bundle.scp.css",
       "PackagePath": "staticwebassets\\StdMngMvc.rcqjathqzo.bundle.scp.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\1.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\1.jpg",
       "PackagePath": "staticwebassets\\Images\\1.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\2.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\2.jpg",
       "PackagePath": "staticwebassets\\Images\\2.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\3.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\3.jpg",
       "PackagePath": "staticwebassets\\Images\\3.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\No.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\No.png",
       "PackagePath": "staticwebassets\\Images\\No.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\No_black.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\No_black.png",
       "PackagePath": "staticwebassets\\Images\\No_black.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\afterPage.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\afterPage.png",
       "PackagePath": "staticwebassets\\Images\\afterPage.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\afterPage1.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\afterPage1.png",
       "PackagePath": "staticwebassets\\Images\\afterPage1.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\back.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\back.png",
       "PackagePath": "staticwebassets\\Images\\back.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\create.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\create.png",
       "PackagePath": "staticwebassets\\Images\\create.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\create_white.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\create_white.png",
       "PackagePath": "staticwebassets\\Images\\create_white.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\delete.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\delete.png",
       "PackagePath": "staticwebassets\\Images\\delete.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\delete_white.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\delete_white.png",
       "PackagePath": "staticwebassets\\Images\\delete_white.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\prePage.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\prePage.png",
       "PackagePath": "staticwebassets\\Images\\prePage.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\prePage1.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\prePage1.png",
       "PackagePath": "staticwebassets\\Images\\prePage1.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\save.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\save.png",
       "PackagePath": "staticwebassets\\Images\\save.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\save_white.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\save_white.png",
       "PackagePath": "staticwebassets\\Images\\save_white.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\search.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\search.png",
       "PackagePath": "staticwebassets\\Images\\search.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\search_white.png.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\search_white.png.png",
       "PackagePath": "staticwebassets\\Images\\search_white.png.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\upload.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\upload.png",
       "PackagePath": "staticwebassets\\Images\\upload.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\upload_whilte.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\upload_whilte.png",
       "PackagePath": "staticwebassets\\Images\\upload_whilte.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\yes.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\yes.png",
       "PackagePath": "staticwebassets\\Images\\yes.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\yes_black.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\Images\\yes_black.png",
       "PackagePath": "staticwebassets\\Images\\yes_black.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\1.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\1.png",
       "PackagePath": "staticwebassets\\UploadFiles\\1.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\2.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\2.png",
       "PackagePath": "staticwebassets\\UploadFiles\\2.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\Mmm.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\Mmm.jpg",
       "PackagePath": "staticwebassets\\UploadFiles\\Mmm.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\Nmm.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\Nmm.jpg",
       "PackagePath": "staticwebassets\\UploadFiles\\Nmm.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\None1.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\None1.jpg",
       "PackagePath": "staticwebassets\\UploadFiles\\None1.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\Wmm.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\Wmm.jpg",
       "PackagePath": "staticwebassets\\UploadFiles\\Wmm.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\dfs.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\dfs.png",
       "PackagePath": "staticwebassets\\UploadFiles\\dfs.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\hien.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\gitpost.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\gitpost.png"
+    },
+    {
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\hien.png",
       "PackagePath": "staticwebassets\\UploadFiles\\hien.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\kdos.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\kdos.png",
       "PackagePath": "staticwebassets\\UploadFiles\\kdos.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\kmp.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\kmp.png",
       "PackagePath": "staticwebassets\\UploadFiles\\kmp.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ldf.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ldf.png",
       "PackagePath": "staticwebassets\\UploadFiles\\ldf.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\lhb.jpg",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\lhb.jpg",
       "PackagePath": "staticwebassets\\UploadFiles\\lhb.jpg"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\testpost.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\testpost.png",
       "PackagePath": "staticwebassets\\UploadFiles\\testpost.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\vgge.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\vgge.png",
       "PackagePath": "staticwebassets\\UploadFiles\\vgge.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\zhangsan.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\zhangsan.png",
       "PackagePath": "staticwebassets\\UploadFiles\\zhangsan.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\zjl.png",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\zjl.png",
       "PackagePath": "staticwebassets\\UploadFiles\\zjl.png"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\css\\site.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\favicon.ico",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\js\\site.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -83,6 +83,7 @@ wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\UploadFiles\1.png
 wwwroot\UploadFiles\2.png
 wwwroot\UploadFiles\dfs.png
+wwwroot\UploadFiles\gitpost.png
 wwwroot\UploadFiles\hien.png
 wwwroot\UploadFiles\kdos.png
 wwwroot\UploadFiles\kmp.png
