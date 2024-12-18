@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -15,11 +16,13 @@ namespace StdMngMvc.Controllers
         private readonly SchoolContext _context;
         private IWebHostEnvironment hostingEnv;
         private string? sortOrder;
+        public IConfiguration Configuration { get; }
 
-        public TeachersController(SchoolContext context, IWebHostEnvironment env)
+        public TeachersController(SchoolContext context, IWebHostEnvironment env, IConfiguration configuration)
         {
             _context = context;
             this.hostingEnv = env;
+            this.Configuration = configuration;
         }
 
         public String UploadTchImg()
@@ -55,12 +58,70 @@ namespace StdMngMvc.Controllers
 
 
         // GET: Teachers
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+        //    return View(await _context.Teachers
+        //                   .Include(t => t.OfficeAssignment)
+        //                   .ToListAsync());
+        //}
+        public async Task<IActionResult> Index(
+            string currentFilter, string sortOrder,
+            string searchString, int? pageNumber)
         {
-            return View(await _context.Teachers
-                           .Include(t => t.OfficeAssignment)
-                           .ToListAsync());
+            ViewData["CurrentSort"] = sortOrder;
+            ViewData["IDSortParm"] = String.IsNullOrEmpty(sortOrder) ? "ID_desc" : "";
+            ViewData["NameSortParm"] = sortOrder == "Name" ? "Name_desc" : "Name";
+            ViewData["BirthSortParm"] = sortOrder == "Birth" ? "Birth_desc" : "Birth";
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+
+            var teachers = from s in _context.Teachers select s;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                teachers = teachers.Where(s => s.Name.Contains(searchString));
+            }
+
+            if (string.IsNullOrEmpty(sortOrder))
+            {
+                sortOrder = "ID";
+            }
+
+            bool descending = false;
+
+            if (sortOrder.EndsWith("_desc"))
+            {
+                sortOrder = sortOrder.Substring(0, sortOrder.Length - 5);
+                descending = true;
+            }
+
+            if (descending)
+            {
+                teachers = teachers.OrderByDescending(e => EF.Property<object>(e, sortOrder));
+            }
+            else
+            {
+                teachers = teachers.OrderBy(e => EF.Property<object>(e, sortOrder));
+            }
+            //int pageSize = 7;
+            int pageSize = Convert.ToInt32(Configuration.GetSection("ApplicationSetting:PageSize").Value);
+
+            return View(await PaginatedList<Teacher>.CreateAsync(teachers.AsNoTracking(),
+                                                     pageNumber ?? 1, pageSize));
         }
+
+
+
+
 
         // GET: Teachers/Details/5
         public async Task<IActionResult> Details(int? id)

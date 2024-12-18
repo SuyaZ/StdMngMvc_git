@@ -1,4 +1,4 @@
-﻿@model IEnumerable<StdMngMvc.Models.Teacher>
+﻿@model PaginatedList<StdMngMvc.Models.Teacher>
 
 @{
     ViewData["Title"] = "Index";
@@ -6,39 +6,61 @@
 
 <h3>教师列表</h3>
 
-<p>
+@* <p> *@
+@*     <a asp-action="Create" class="btn btn-primary"> *@
+@*         <img src="@Url.Content("~/Images/create_white.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;新建 *@
+@*     </a> *@
+@* </p> *@
+
+<nav class="navbar navbar-light bg-light">
     <a asp-action="Create" class="btn btn-primary">
         <img src="@Url.Content("~/Images/create_white.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;新建
     </a>
-</p>
+
+    <form class="form-inline" asp-action="Index" method="get">
+        <input class="form-control mr-sm-2" type="search" placeholder="请输入老师姓名..."
+               aria-label="Search" name="searchString" value="@ViewData["currentFilter"]" />
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            <img src="@Url.Content("~/Images/search.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;查找
+        </button>
+    </form>
+
+</nav>
+
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ID)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["IDSortParm"]"
+                   asp-route-currentFilter="@ViewData["currentFilter"]">工号</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
+                   asp-route-currentFilter="@ViewData["currentFilter"]">姓名</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Gender)
+                性别
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Birth)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["BirthSortParm"]"
+                   asp-route-currentFilter="@ViewData["currentFilter"]">出生日期</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                邮箱
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IDNums)
+                身份证号
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ImageURL)
+                登记照
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                职称
             </th>
-            <th>办公室</th>
+            <th>
+                办公室
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -92,3 +114,25 @@
         }
     </tbody>
 </table>
+
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<div style="text-align:right; margin-right:45px">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @prevDisabled">
+        <img src="@Url.Content("~/Images/prePage1.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp; 前一页
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @nextDisabled">
+        后一页  &nbsp;<img src="@Url.Content("~/Images/afterPage1.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">
+    </a>
+</div>

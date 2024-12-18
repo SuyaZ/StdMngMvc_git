@@ -626,3 +626,4 @@ D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\refint\StdM
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.pdb
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.genruntimeconfig.cache
 D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\ref\StdMngMvc.dll
+D:\vs2022\vs_proj\StdMngMvc_git\StdMngMvc\StdMngMvc\obj\Debug\net8.0\StdMngMvc.sourcelink.json
