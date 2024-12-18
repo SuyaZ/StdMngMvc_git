@@ -1,0 +1,73 @@
+﻿@model StdMngMvc.Models.Teacher
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h4>查看教师信息</h4>
+
+<div>
+    @* <h4>Teacher</h4> *@
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Birth)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Birth)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IDNums)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IDNums)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageURL)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                if (Model.ImageURL != null)
+                {
+                    <img src="@Url.Content(Model.ImageURL)"
+                         style="max-height:300px;max-width:300px;object-fit:contain;" />
+                }
+                else
+                {
+                    @Html.DisplayFor(modelItem => Model.ImageURL)
+                    ;
+
+                }
+            }
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-link">
+        <img src="@Url.Content("~/Images/back.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;返回
+    </a>
+</div>

@@ -1,0 +1,119 @@
+﻿@model StdMngMvc.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>修改学生信息</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                &nbsp;<input asp-for="Gender" type="radio" value="男" />男 &nbsp;&nbsp;&nbsp;
+                <input asp-for="Gender" type="radio" value="女" />女
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birth" class="control-label"></label>
+                <input asp-for="Birth" class="form-control" />
+                <span asp-validation-for="Birth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IDNums" class="control-label"></label>
+                <input asp-for="IDNums" class="form-control" />
+                <span asp-validation-for="IDNums" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageURL" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Memo" class="control-label"></label>
+                <input asp-for="Memo" class="form-control" />
+                <span asp-validation-for="Memo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    <img src="@Url.Content("~/Images/save_white.png")" alt="..." style="width: 2em; height: 2em; margin-right: 0.5em;">&nbsp;保存
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-link">
+        <img src="@Url.Content("~/Images/back.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;返回
+    </a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript" language="javascript">
+        $(function(){
+            $("#uploadStdImg").click(function(){
+                debugger;
+                var fileUpload=$("#stdImgFile").get(0);
+                var files=fileUpload.files;
+                var data=new FormData();
+
+                for(var i=0; i<files.length; i++)
+                {
+                    if(files[i].size>1024*1024*32)
+                    {
+                        alert("图片大小不能大于32MB!");
+                        return false;
+                    }
+
+                    var point=files[i].name.lastIndexOf(".");
+                    var type=files[i].name.substr(point);
+
+                    if(!(type==".jpg"||type==".png"||type==".JPG"||type==".PNG"))
+                    {
+                        alert("上传图片的格式必须为JPG或者PNG格式!");
+                        return false;
+                    }
+
+                    data.append(files[i].name, files[i]);
+                }
+
+                $.ajax({
+                    type:"POST",
+                    url:'@Url.Content("~/Students/UpdateStdImg")',
+                    contentType:false,
+                    processData:false,
+                    data:data,
+                    success:function(data){
+                        if(data!=null){
+                            $("#imgStd").get(0).src='@Url.Content("~/UploadFiles/")'
+                            + data;
+
+                            $("#ImageURL").get(0).value='~/UploadFiles/' + data;
+                        }
+                    },
+                    error:function()
+                    {
+                        alert("上传图片错误!");
+                    }
+                });
+            });
+        });
+    </script>
+}

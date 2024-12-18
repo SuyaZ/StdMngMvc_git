@@ -1,0 +1,77 @@
+﻿@model StdMngMvc.Models.Student
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@* <h1>Delete</h1> *@
+
+<h4>确认删除学生吗？</h4>
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Birth)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Birth)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IDNums)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IDNums)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageURL)
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                if(Model.ImageURL!=null)
+                {
+                    <img src="@Url.Content(Model.ImageURL)"
+                    style="max-height:300px;max-width:300px;object-fit:contain;" />
+                }
+                else
+                {
+                    @Html.DisplayFor(modelItem=>Model.ImageURL);
+                }
+            }
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Memo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Memo)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <button type="submit" class="btn btn-danger">
+            <img src="@Url.Content("~/Images/delete_white.png")" alt="..." style="width: 1.5em; height: 1.5em; margin-right: 0.5em;">&nbsp;删除
+        </button>|
+        <a asp-action="Index">
+            <img src="@Url.Content("~/Images/back.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;返回
+        </a>
+    </form>
+</div>

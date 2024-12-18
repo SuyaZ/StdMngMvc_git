@@ -1,0 +1,51 @@
+﻿@* @{ *@
+@*     ViewData["Title"] = "关于"; *@
+@* } *@
+@* <h1>@ViewData["Title"]</h1> *@
+
+@* <p>学生信息管理系统</p> *@
+
+
+
+@model IEnumerable<StdMngMvc.StdViewModels.CourseStats>
+
+@{
+    ViewData["Title"] = "关于";
+}
+
+<h3>课程选课情况统计</h3>
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nums)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AvgGrade)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nums)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AvgGrade)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

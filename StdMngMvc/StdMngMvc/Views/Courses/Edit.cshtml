@@ -1,0 +1,54 @@
+﻿@model StdMngMvc.Models.Course
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>修改课程信息</h4>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CourseID" />
+            <div class="form-group">
+                <label asp-for="CourseName" class="control-label"></label>
+                <input asp-for="CourseName" class="form-control" />
+                <span asp-validation-for="CourseName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CCredit" class="control-label"></label>
+                <input asp-for="CCredit" class="form-control" />
+                <span asp-validation-for="CCredit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreCourseID" class="control-label"></label>
+                <select asp-for="PreCourseID" class="form-control" asp-items="ViewBag.PreCourseID">
+                    <option value="">--选择先修课</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartmentID" class="control-label"></label>
+                <select asp-for="DepartmentID" class="form-control" asp-items="ViewBag.DepartmentID">
+                    <option value="">--选择开课系别</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    <img src="@Url.Content("~/Images/save_white.png")" alt="..." style="width: 2em; height: 2em; margin-right: 0.5em;">&nbsp;保存
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-link">
+        <img src="@Url.Content("~/Images/back.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;返回
+    </a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,159 @@
+﻿@model StdMngMvc.Models.Teacher
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="row">
+    <div class="col-md-10">
+        <h3>添加老师</h3>
+    </div>
+    <div class="col-md-2" style="text-align:right">
+        <a asp-action="Index" class="btn btn-link">
+            <img src="@Url.Content("~/Images/back.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;返回
+        </a>
+    </div>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" class="form-control" />
+                <span asp-validation-for="ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                &nbsp;<input asp-for="Gender" type="radio" value="男" />男 &nbsp;&nbsp;&nbsp;
+                <input asp-for="Gender" type="radio" value="女" />女
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birth" class="control-label"></label>
+                <input asp-for="Birth" class="form-control" />
+                <span asp-validation-for="Birth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IDNums" class="control-label"></label>
+                <input asp-for="IDNums" class="form-control" />
+                <span asp-validation-for="IDNums" class="text-danger"></span>
+            </div>
+
+            @* <div class="col-md-6" style="margin-left:50px"> *@
+
+                <div class="form-group">
+                    <input asp-for="ImageURL" class="form-control" type="hidden" />
+                    <span asp-validation-for="ImageURL" class="text-danger"></span>
+                </div>
+
+                @* <partial name="_UploadImg" /> *@
+            <div class="form-group">
+                <label asp-for="ImageURL" class="control-label"></label>
+                @{
+                    if (Model == null || Model.ImageURL == null)
+                    {
+                        <img src="@Url.Content("~/UploadFiles/None1.jpg")"
+                             style="max-height:320px;max-width:180px;object-fit:contain;"
+                             id="imgTch" />
+                    }
+                    else
+                    {
+                        <img src="@Url.Content(Model.ImageURL)"
+                             style="max-height:320px;max-width:180px;object-fit:contain;"
+                             id="imgTch" />
+                    }
+                }
+                <br /> <br />
+                <input type="file" id="TchImgFile" multiple />
+                <button type="button" class="btn btn-primary" id="uploadTchImg">
+                    <img src="@Url.Content("~/Images/upload_whilte.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;上传图片
+                </button>
+            </div>
+            <!-- 其他表单元素 -->
+
+                <div class="form-group">
+                    <label asp-for="Title" class="control-label"></label>
+                    <select asp-for="Title" class="form-control" asp-items="@Html.GetEnumSelectList(typeof(Title))">
+                        <option value="">--选择职称--</option>
+                    </select>
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="OfficeAssignment.Location" class="control-label"></label>
+                    <input asp-for="OfficeAssignment.Location" class="form-control" />
+                    <span asp-validation-for="OfficeAssignment.Location" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                        <img src="@Url.Content("~/Images/save_white.png")" alt="..." style="width: 2em; height: 2em; margin-right: 0.5em;">&nbsp;保存
+                    </button>
+                </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript" language="javascript">
+        $(function(){
+            $("#uploadTchImg").click(function(){
+                var fileUpload=$("#TchImgFile").get(0);
+                var files=fileUpload.files;
+                var data=new FormData();
+
+                for(var i=0; i<files.length; i++)
+                {
+                    if(files[i].size>1024*1024*32)
+                    {
+                        alert("图片大小不能大于32MB!");
+                        return false;
+                    }
+
+                    var point=files[i].name.lastIndexOf(".");
+                    var type=files[i].name.substr(point);
+
+                    if(!(type==".jpg"||type==".png"||type==".JPG"||type==".PNG"))
+                    {
+                        alert("上传图片的格式必须为JPG或者PNG格式!");
+                        return false;
+                    }
+
+                    data.append(files[i].name, files[i]);
+                }
+
+                $.ajax({
+                    type:"POST",
+                    url:'@Url.Content("~/Teachers/UploadTchImg")',
+                    contentType:false,
+                    processData:false,
+                    data:data,
+                    success:function(data){
+                        if(data!=null){
+                            $("#imgTch").attr('src', '@Url.Content("~/UploadFiles/")' + data);
+                            $("#ImageURL").val('/UploadFiles/' + data);
+                        }
+                    },
+                    error:function(xhr, status, error){
+                        alert("上传图片错误: " + error);
+                    }
+                });
+            });
+        });
+
+    </script>
+}

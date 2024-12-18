@@ -1,0 +1,94 @@
+﻿@model IEnumerable<StdMngMvc.Models.Teacher>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>教师列表</h3>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        <img src="@Url.Content("~/Images/create_white.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;新建
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDNums)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>办公室</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDNums)
+                </td>
+                @* <td> *@
+                @*     @Html.DisplayFor(modelItem => item.ImageURL) *@
+                @* </td> *@
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImageURL))
+                    {
+                        <img src="@Url.Content(item.ImageURL)" alt="Image" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <img src="@Url.Content("~/images/default.png")" alt="No Image" style="max-width: 100px; max-height: 100px;" />
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OfficeAssignment.Location)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">修改</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">详细信息</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">删除</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

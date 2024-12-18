@@ -1,0 +1,238 @@
+﻿@model PaginatedList<StdMngMvc.Models.Student>
+@using StdMngMvc.StdViewModels;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<h4>学生列表</h4>
+
+
+<nav class="navbar navbar-light bg-light">
+    <a asp-action="Create" class="btn btn-primary">
+        <img src="@Url.Content("~/Images/create_white.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;新建
+    </a>
+
+    <form class="form-inline" asp-action="Index" method="get">
+        <input class="form-control mr-sm-2" type="search" placeholder="请输入学生姓名..."
+        aria-label="Search" name="searchString" value="@ViewData["currentFilter"]" />
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            <img src="@Url.Content("~/Images/search.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;查找
+        </button>
+    </form>
+
+</nav>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["IDSortParm"]"
+                   asp-route-currentFilter="@ViewData["currentFilter"]">学号</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
+                   asp-route-currentFilter="@ViewData["currentFilter"]">姓名</a>
+            </th>
+            <th>
+                性别
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["BirthSortParm"]"
+                   asp-route-currentFilter="@ViewData["currentFilter"]">出生日期</a>
+            </th>
+            <th>
+                邮箱
+            </th>
+            <th>
+                身份证号
+            </th>
+            <th>
+                登记照
+            </th>
+            <th>
+                个人简介
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem=>item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDNums)
+            </td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.ImageURL))
+                {
+                    <img src="@Url.Content(item.ImageURL)" alt="Image" style="max-width: 100px; max-height: 100px;" />
+                }
+                else
+                {
+                   <img src="@Url.Content("~/images/default.png")" alt="No Image" style="max-width: 100px; max-height: 100px;" />
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Memo)
+            </td>
+            <td>
+                <a asp-action="Index" asp-route-id="@item.ID"
+                    asp-route-sortOrder="@ViewData["CurrentSort"]"
+                    asp-route-pageNumber="@(Model.PageIndex)"
+                    asp-route-cuurentFilter="@ViewData["CurrentFilter"]">
+                选择
+                </a> | 
+
+                <a asp-action="Edit" asp-route-id="@item.ID">修改</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">详情</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">删除</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<div style="text-align:right; margin-right:45px">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @prevDisabled">
+        <img src="@Url.Content("~/Images/prePage1.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp; 前一页
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @nextDisabled">
+        后一页  &nbsp;<img src="@Url.Content("~/Images/afterPage1.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">
+    </a>
+</div>
+
+@if (ViewBag.StdCourses != null)
+{
+    IEnumerable<StdCourse> Courses = ViewBag.StdCourses;
+    @* <form asp-action="SaveStdGrades" *@
+    @*        asp-route-id="@ViewData["StdID"]" *@
+    @*        asp-route-sortOrder="@ViewData["CurrentSort"]" *@
+    @*        asp-route-pageNumber="@(Model.PageIndex)" *@
+    @*        asp-route-currentFilter="@ViewData["CurrentFilter"]"> *@
+
+    <form id="fmStdCourse">
+        <hr />
+        <div class="row">
+            <div class="col-md-10">
+                <h4>学生选课信息</h4>
+                @*<h5 class="text-success">@ViewData["Msg"]</h5>*@
+                @*<input type="button" value="Test" id="btnTest"/>*@
+            </div>
+            <div class="col-md-2" style="text-align:right">
+                <button class="btn btn-primary" id="btnSaveStdCourse" type="button">
+                    <img src="@Url.Content("~/Images/save_white.png")" alt="..." style="width: 2em; height: 2em; margin-right: 0.5em;">&nbsp;保存
+                </button>
+            </div>
+        </div>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        课程号
+                    </th>
+                    <th>
+                        课程名称
+                    </th>
+                    <th>
+                        学分
+                    </th>
+                    <th>
+                        开课系别
+                    </th>
+                    <th>
+                        考试成绩
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Courses)
+                {
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control-plaintext"
+                                   value="@item.CourseID" name="courseIds" id="courseIds" />
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CCredit)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DepartmentName)
+                        </td>
+                        <td>
+                            <input type="text" class="form-control"
+                                   value="@item.Grade" name="stdGrades" id="stdGrades" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+
+
+
+}
+
+@* @if (ViewBag.Msg != "") *@
+@* { *@
+@*     <script type="text/javascript"> *@
+@*         alert('保存学生选课信息成功！'); *@
+@*     </script> *@
+@* } *@
+
+
+@* 所有$替换为JQuery即可成功 *@
+<script type="text/javascript" language="javascript">
+
+    jQuery(function () {
+        jQuery("#btnSaveStdCourse").click(function () {
+            jQuery.ajax({
+                type: "POST",
+                url: "/Students/SaveStdGrades/@ViewData["StdID"]",
+                data: jQuery('#fmStdCourse').serialize(),
+                success: function (msg) {
+                    debugger;
+                    alert(msg);
+                },
+                error: function (msg) {
+                    window.alert(msg);
+                }
+            });
+        });
+    });
+</script>
+

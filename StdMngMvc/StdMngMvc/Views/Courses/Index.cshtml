@@ -1,0 +1,136 @@
+﻿@model IEnumerable<StdMngMvc.Models.Course>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<h4>课程列表</h4>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        <img src="@Url.Content("~/Images/create_white.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp;新建
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CCredit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PreCourse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CCredit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreCourse.CourseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CourseID">修改</a> |
+                <a asp-action="Details" asp-route-id="@item.CourseID">详情</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CourseID" id="btnDelete" data-CourseId="@item.CourseID">删除</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="delConfirmMod" tabindex="-1" role="dialog" a
+     ria-labelledby="delConfirm" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">确认信息</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                确认删除选中的课程吗？
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close btn btn-secondary" data-dismiss="modal" aria-label="Close", id="btnCancel">
+                    <img src="@Url.Content("~/Images/No.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp; 取 消
+                </button>
+                <button type="button" class="btn btn-primary" id="btnConfirm">
+                    <img src="@Url.Content("~/Images/yes.png")" alt="..." style="width: 1em; height: 1em; margin-right: 0.5em;">&nbsp; 确 定
+                </button>
+                <input type="hidden" id="txtCourseId" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    jQuery(function () {
+        jQuery('a[id*=btnDelete]').click(function (e) {
+            debugger;
+            //去掉链接的默认点击事件
+            e.preventDefault();
+            //取课程的ID
+            //var id = $(this).parent()[0].id;
+            //var id = $(this)[0].dataset.courseid;
+            var id = jQuery(this).data('courseid');
+            //课程ID存储在隐藏文本框中
+            jQuery("#txtCourseId")[0].value = id;
+            //弹出确认对话框
+            jQuery('#delConfirmMod').modal('show');
+        });
+
+        jQuery("#btnConfirm").click(function () {
+            //取隐藏文本框中的课程ID值
+            var id = jQuery("#txtCourseId").val();
+            //alert(id);
+            ////隐藏确认模态框
+            jQuery('#delConfirmMod').modal('hide');
+
+            jQuery.ajax({
+                type: "POST",
+                url: "/Courses/DeleteByJsModel/" + id,
+                success: function (msg) {
+                    //debugger;
+                    //alert(msg);
+                    //回到Index View刷新课程列表
+                    window.location.href = "/Courses/Index";
+                },
+                error: function (msg) {
+                    window.alert(msg);
+                }
+            });
+        })
+        jQuery('#btnCancel').click(function (e) {
+            e.preventDefault(); // 阻止默认事件
+            jQuery('#delConfirmMod').modal('hide'); // 关闭模态框
+        });
+    })
+</script>
