@@ -82,11 +82,13 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\UploadFiles\1.png
 wwwroot\UploadFiles\2.png
+wwwroot\UploadFiles\bsjw.png
 wwwroot\UploadFiles\dfs.png
 wwwroot\UploadFiles\gitpost.png
 wwwroot\UploadFiles\hien.png
 wwwroot\UploadFiles\kdos.png
 wwwroot\UploadFiles\kmp.png
+wwwroot\UploadFiles\L2ppTH.jpg
 wwwroot\UploadFiles\ldf.png
 wwwroot\UploadFiles\lhb.jpg
 wwwroot\UploadFiles\Mmm.jpg
@@ -96,3 +98,5 @@ wwwroot\UploadFiles\vgge.png
 wwwroot\UploadFiles\Wmm.jpg
 wwwroot\UploadFiles\zhangsan.png
 wwwroot\UploadFiles\zjl.png
+wwwroot\UploadFiles\ZVZw.jpg
+wwwroot\UploadFiles\ZVZwhd.jpg

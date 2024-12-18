@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jEP63kkOa1V8KpIx0QXsoMMkXgohRS6NvOlujj9xQbg=",
+  "Hash": "UIqf4Ayu3QkU4pClm5G1r+I1PBW/5DHu8yOG07OjSqA=",
   "Source": "StdMngMvc",
   "BasePath": "_content/StdMngMvc",
   "Mode": "Default",
@@ -1823,6 +1823,27 @@
       "OriginalItemSpec": "wwwroot\\UploadFiles\\2.png"
     },
     {
+      "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\bsjw.png",
+      "SourceId": "StdMngMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\",
+      "BasePath": "_content/StdMngMvc",
+      "RelativePath": "UploadFiles/bsjw#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ptzzjkresw",
+      "Integrity": "HZMPKCM0Uo0M1aU22ur1DH6fuPVQdmPxQHo8tR1dWr4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFiles\\bsjw.png"
+    },
+    {
       "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\dfs.png",
       "SourceId": "StdMngMvc",
       "SourceType": "Discovered",
@@ -1926,6 +1947,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadFiles\\kmp.png"
+    },
+    {
+      "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\L2ppTH.jpg",
+      "SourceId": "StdMngMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\",
+      "BasePath": "_content/StdMngMvc",
+      "RelativePath": "UploadFiles/L2ppTH#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ftrshfjyq2",
+      "Integrity": "03h8ycoI9xYgJS5/GCfkSBpuzF3pcCRVleUM1ESjQiM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFiles\\L2ppTH.jpg"
     },
     {
       "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ldf.png",
@@ -2115,6 +2157,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadFiles\\zjl.png"
+    },
+    {
+      "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ZVZw.jpg",
+      "SourceId": "StdMngMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\",
+      "BasePath": "_content/StdMngMvc",
+      "RelativePath": "UploadFiles/ZVZw#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pog35e4v1o",
+      "Integrity": "OZTOmRm/uqcXu4HSXgoiFx0sZ8jh/c5FNmzf3kI40GU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFiles\\ZVZw.jpg"
+    },
+    {
+      "Identity": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ZVZwhd.jpg",
+      "SourceId": "StdMngMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\",
+      "BasePath": "_content/StdMngMvc",
+      "RelativePath": "UploadFiles/ZVZwhd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3y5juj5805",
+      "Integrity": "2/7pPO3ININvu1VqPMqNMQL4Pp19igA/z5jAX4sx1Dw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFiles\\ZVZwhd.jpg"
     }
   ],
   "Endpoints": [
@@ -9171,6 +9255,88 @@
       ]
     },
     {
+      "Route": "UploadFiles/bsjw.png",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\bsjw.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2584576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HZMPKCM0Uo0M1aU22ur1DH6fuPVQdmPxQHo8tR1dWr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HZMPKCM0Uo0M1aU22ur1DH6fuPVQdmPxQHo8tR1dWr4="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/bsjw.ptzzjkresw.png",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\bsjw.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2584576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HZMPKCM0Uo0M1aU22ur1DH6fuPVQdmPxQHo8tR1dWr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ptzzjkresw"
+        },
+        {
+          "Name": "label",
+          "Value": "UploadFiles/bsjw.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HZMPKCM0Uo0M1aU22ur1DH6fuPVQdmPxQHo8tR1dWr4="
+        }
+      ]
+    },
+    {
       "Route": "UploadFiles/dfs.e8a69hwgg8.png",
       "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\dfs.png",
       "Selectors": [],
@@ -9577,6 +9743,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MYN2PKDe1/7GokIuMy0JXLQlFboKrRM8IthhDikR68M="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/L2ppTH.ftrshfjyq2.jpg",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\L2ppTH.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03h8ycoI9xYgJS5/GCfkSBpuzF3pcCRVleUM1ESjQiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftrshfjyq2"
+        },
+        {
+          "Name": "label",
+          "Value": "UploadFiles/L2ppTH.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-03h8ycoI9xYgJS5/GCfkSBpuzF3pcCRVleUM1ESjQiM="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/L2ppTH.jpg",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\L2ppTH.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03h8ycoI9xYgJS5/GCfkSBpuzF3pcCRVleUM1ESjQiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-03h8ycoI9xYgJS5/GCfkSBpuzF3pcCRVleUM1ESjQiM="
         }
       ]
     },
@@ -10013,7 +10261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 13:02:33 GMT"
+          "Value": "Wed, 18 Dec 2024 15:58:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10058,7 +10306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 13:02:33 GMT"
+          "Value": "Wed, 18 Dec 2024 15:58:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10315,6 +10563,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-u22G6J7K7ZZyG0Lfl7ZqvZxei7bV0WGmNgakFetAVNA="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/ZVZw.jpg",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ZVZw.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZTOmRm/uqcXu4HSXgoiFx0sZ8jh/c5FNmzf3kI40GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZTOmRm/uqcXu4HSXgoiFx0sZ8jh/c5FNmzf3kI40GU="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/ZVZw.pog35e4v1o.jpg",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ZVZw.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZTOmRm/uqcXu4HSXgoiFx0sZ8jh/c5FNmzf3kI40GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pog35e4v1o"
+        },
+        {
+          "Name": "label",
+          "Value": "UploadFiles/ZVZw.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZTOmRm/uqcXu4HSXgoiFx0sZ8jh/c5FNmzf3kI40GU="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/ZVZwhd.3y5juj5805.jpg",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ZVZwhd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2/7pPO3ININvu1VqPMqNMQL4Pp19igA/z5jAX4sx1Dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:15:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3y5juj5805"
+        },
+        {
+          "Name": "label",
+          "Value": "UploadFiles/ZVZwhd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2/7pPO3ININvu1VqPMqNMQL4Pp19igA/z5jAX4sx1Dw="
+        }
+      ]
+    },
+    {
+      "Route": "UploadFiles/ZVZwhd.jpg",
+      "AssetFile": "D:\\vs2022\\vs_proj\\StdMngMvc_git\\StdMngMvc\\StdMngMvc\\wwwroot\\UploadFiles\\ZVZwhd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2/7pPO3ININvu1VqPMqNMQL4Pp19igA/z5jAX4sx1Dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:15:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2/7pPO3ININvu1VqPMqNMQL4Pp19igA/z5jAX4sx1Dw="
         }
       ]
     }
